@@ -10,5 +10,6 @@
 #import "IDCharacterSet.h"
 
 @interface NSString (CharacterRange)
+
 - (NSRange)rangeOfComposedCharacterFromSet:(IDCharacterSet *)searchSet;
 @end

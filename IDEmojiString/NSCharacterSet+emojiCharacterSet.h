@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface NSCharacterSet (emojiCharacterSet)
+
 @property (readonly, class, copy) NSCharacterSet *emojiCharacterSet;
 @end
