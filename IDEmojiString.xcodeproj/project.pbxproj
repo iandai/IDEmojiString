@@ -11,7 +11,7 @@
 		3CA4F4241E17CF8A00BCED36 /* NSString+CharacterRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4F4231E17CF8A00BCED36 /* NSString+CharacterRange.m */; };
 		3CB8E1EF1E18BE7200510167 /* emoji-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8E1EE1E18BE7200510167 /* emoji-test.txt */; };
 		3CB8E1F11E18E1E100510167 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8E1F01E18E1E100510167 /* Info.plist */; };
-		3CB8E1F31E18E36B00510167 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8E1F21E18E36B00510167 /* README.md */; };
+		3CB8E1F51E18F3FE00510167 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8E1F41E18F3FE00510167 /* README.md */; };
 		3CEAF9671E13F8D20011D726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF9661E13F8D20011D726 /* main.m */; };
 		3CEAF9801E13F8D20011D726 /* IDEmojiStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF97F1E13F8D20011D726 /* IDEmojiStringTests.m */; };
 		3CEAF98F1E13FCD20011D726 /* IDEmojiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF98E1E13FCD20011D726 /* IDEmojiManager.m */; };
@@ -36,7 +36,7 @@
 		3CA4F4231E17CF8A00BCED36 /* NSString+CharacterRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CharacterRange.m"; sourceTree = "<group>"; };
 		3CB8E1EE1E18BE7200510167 /* emoji-test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "emoji-test.txt"; sourceTree = "<group>"; };
 		3CB8E1F01E18E1E100510167 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CB8E1F21E18E36B00510167 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = IDEmojiString/README.md; sourceTree = "<group>"; };
+		3CB8E1F41E18F3FE00510167 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3CEAF9621E13F8D20011D726 /* IDEmojiString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDEmojiString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEAF9661E13F8D20011D726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CEAF97B1E13F8D20011D726 /* IDEmojiStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDEmojiStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +71,7 @@
 			children = (
 				3CEAF9641E13F8D20011D726 /* IDEmojiString */,
 				3CEAF97E1E13F8D20011D726 /* IDEmojiStringTests */,
-				3CB8E1F21E18E36B00510167 /* README.md */,
+				3CB8E1F41E18F3FE00510167 /* README.md */,
 				3CEAF9631E13F8D20011D726 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -222,9 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB8E1F31E18E36B00510167 /* README.md in Sources */,
 				3CEAF9941E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m in Sources */,
 				3CA4F4211E17A36800BCED36 /* IDCharacterSet.m in Sources */,
+				3CB8E1F51E18F3FE00510167 /* README.md in Sources */,
 				3CA4F4241E17CF8A00BCED36 /* NSString+CharacterRange.m in Sources */,
 				3CEAF9671E13F8D20011D726 /* main.m in Sources */,
 				3CEAF98F1E13FCD20011D726 /* IDEmojiManager.m in Sources */,
