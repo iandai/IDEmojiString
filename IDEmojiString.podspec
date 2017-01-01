@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { 'Ian Dai' => 'iandaicsu@gmail.com' }
     s.source       = { :git => 'https://github.com/iandai/IDEmojiString.git', :tag => '1.0.0' }
-    s.source_files = 'IDEmojiString/*'
+    s.source_files = 'IDEmojiString/*{h,m}'
     s.framework    = 'Foundation'
 end
