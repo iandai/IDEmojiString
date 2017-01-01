@@ -6,8 +6,6 @@
 //  Copyright © 2016 iandai. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 int main(int argc, char * argv[]) {
 
 }
