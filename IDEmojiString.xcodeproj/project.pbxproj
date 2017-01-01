@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA4F4211E17A36800BCED36 /* IDCharacterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4F4201E17A36800BCED36 /* IDCharacterSet.m */; };
+		3CA4F4241E17CF8A00BCED36 /* NSString+CharacterRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4F4231E17CF8A00BCED36 /* NSString+CharacterRange.m */; };
+		3CB8E1EF1E18BE7200510167 /* emoji-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8E1EE1E18BE7200510167 /* emoji-test.txt */; };
+		3CB8E1F11E18E1E100510167 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8E1F01E18E1E100510167 /* Info.plist */; };
+		3CEAF9671E13F8D20011D726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF9661E13F8D20011D726 /* main.m */; };
+		3CEAF9801E13F8D20011D726 /* IDEmojiStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF97F1E13F8D20011D726 /* IDEmojiStringTests.m */; };
+		3CEAF98F1E13FCD20011D726 /* IDEmojiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF98E1E13FCD20011D726 /* IDEmojiManager.m */; };
+		3CEAF9911E1401900011D726 /* emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CEAF9901E1401900011D726 /* emoji.plist */; };
+		3CEAF9941E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF9931E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CEAF97C1E13F8D20011D726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CEAF95A1E13F8D10011D726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEAF9611E13F8D20011D726;
+			remoteInfo = IDEmojiString;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CA4F41F1E17A36800BCED36 /* IDCharacterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCharacterSet.h; sourceTree = "<group>"; };
+		3CA4F4201E17A36800BCED36 /* IDCharacterSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCharacterSet.m; sourceTree = "<group>"; };
+		3CA4F4221E17CF8A00BCED36 /* NSString+CharacterRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CharacterRange.h"; sourceTree = "<group>"; };
+		3CA4F4231E17CF8A00BCED36 /* NSString+CharacterRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CharacterRange.m"; sourceTree = "<group>"; };
+		3CB8E1EE1E18BE7200510167 /* emoji-test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "emoji-test.txt"; sourceTree = "<group>"; };
+		3CB8E1F01E18E1E100510167 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CEAF9621E13F8D20011D726 /* IDEmojiString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDEmojiString.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEAF9661E13F8D20011D726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CEAF97B1E13F8D20011D726 /* IDEmojiStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDEmojiStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEAF97F1E13F8D20011D726 /* IDEmojiStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEmojiStringTests.m; sourceTree = "<group>"; };
+		3CEAF98D1E13FCD20011D726 /* IDEmojiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEmojiManager.h; sourceTree = "<group>"; };
+		3CEAF98E1E13FCD20011D726 /* IDEmojiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDEmojiManager.m; sourceTree = "<group>"; };
+		3CEAF9901E1401900011D726 /* emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emoji.plist; sourceTree = "<group>"; };
+		3CEAF9921E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+emojiCharacterSet.h"; sourceTree = "<group>"; };
+		3CEAF9931E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+emojiCharacterSet.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CEAF95F1E13F8D20011D726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEAF9781E13F8D20011D726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEAF9591E13F8D10011D726 = {
+			isa = PBXGroup;
+			children = (
+				3CEAF9641E13F8D20011D726 /* IDEmojiString */,
+				3CEAF97E1E13F8D20011D726 /* IDEmojiStringTests */,
+				3CEAF9631E13F8D20011D726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CEAF9631E13F8D20011D726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CEAF9621E13F8D20011D726 /* IDEmojiString.app */,
+				3CEAF97B1E13F8D20011D726 /* IDEmojiStringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CEAF9641E13F8D20011D726 /* IDEmojiString */ = {
+			isa = PBXGroup;
+			children = (
+				3CEAF98D1E13FCD20011D726 /* IDEmojiManager.h */,
+				3CEAF98E1E13FCD20011D726 /* IDEmojiManager.m */,
+				3CA4F41F1E17A36800BCED36 /* IDCharacterSet.h */,
+				3CA4F4201E17A36800BCED36 /* IDCharacterSet.m */,
+				3CA4F4221E17CF8A00BCED36 /* NSString+CharacterRange.h */,
+				3CA4F4231E17CF8A00BCED36 /* NSString+CharacterRange.m */,
+				3CEAF9921E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.h */,
+				3CEAF9931E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m */,
+				3CEAF9901E1401900011D726 /* emoji.plist */,
+				3CB8E1EE1E18BE7200510167 /* emoji-test.txt */,
+				3CEAF9651E13F8D20011D726 /* Supporting Files */,
+			);
+			path = IDEmojiString;
+			sourceTree = "<group>";
+		};
+		3CEAF9651E13F8D20011D726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CEAF9661E13F8D20011D726 /* main.m */,
+				3CB8E1F01E18E1E100510167 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CEAF97E1E13F8D20011D726 /* IDEmojiStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CEAF97F1E13F8D20011D726 /* IDEmojiStringTests.m */,
+			);
+			path = IDEmojiStringTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CEAF9611E13F8D20011D726 /* IDEmojiString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEAF9841E13F8D20011D726 /* Build configuration list for PBXNativeTarget "IDEmojiString" */;
+			buildPhases = (
+				3CEAF95E1E13F8D20011D726 /* Sources */,
+				3CEAF95F1E13F8D20011D726 /* Frameworks */,
+				3CEAF9601E13F8D20011D726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDEmojiString;
+			productName = IDEmojiString;
+			productReference = 3CEAF9621E13F8D20011D726 /* IDEmojiString.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CEAF97A1E13F8D20011D726 /* IDEmojiStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEAF9871E13F8D20011D726 /* Build configuration list for PBXNativeTarget "IDEmojiStringTests" */;
+			buildPhases = (
+				3CEAF9771E13F8D20011D726 /* Sources */,
+				3CEAF9781E13F8D20011D726 /* Frameworks */,
+				3CEAF9791E13F8D20011D726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEAF97D1E13F8D20011D726 /* PBXTargetDependency */,
+			);
+			name = IDEmojiStringTests;
+			productName = IDEmojiStringTests;
+			productReference = 3CEAF97B1E13F8D20011D726 /* IDEmojiStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CEAF95A1E13F8D10011D726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = iandai;
+				TargetAttributes = {
+					3CEAF9611E13F8D20011D726 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3CEAF97A1E13F8D20011D726 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CEAF9611E13F8D20011D726;
+					};
+				};
+			};
+			buildConfigurationList = 3CEAF95D1E13F8D10011D726 /* Build configuration list for PBXProject "IDEmojiString" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CEAF9591E13F8D10011D726;
+			productRefGroup = 3CEAF9631E13F8D20011D726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CEAF9611E13F8D20011D726 /* IDEmojiString */,
+				3CEAF97A1E13F8D20011D726 /* IDEmojiStringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CEAF9601E13F8D20011D726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB8E1EF1E18BE7200510167 /* emoji-test.txt in Resources */,
+				3CEAF9911E1401900011D726 /* emoji.plist in Resources */,
+				3CB8E1F11E18E1E100510167 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEAF9791E13F8D20011D726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CEAF95E1E13F8D20011D726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEAF9941E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m in Sources */,
+				3CA4F4211E17A36800BCED36 /* IDCharacterSet.m in Sources */,
+				3CA4F4241E17CF8A00BCED36 /* NSString+CharacterRange.m in Sources */,
+				3CEAF9671E13F8D20011D726 /* main.m in Sources */,
+				3CEAF98F1E13FCD20011D726 /* IDEmojiManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEAF9771E13F8D20011D726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEAF9801E13F8D20011D726 /* IDEmojiStringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CEAF97D1E13F8D20011D726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CEAF9611E13F8D20011D726 /* IDEmojiString */;
+			targetProxy = 3CEAF97C1E13F8D20011D726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CEAF9821E13F8D20011D726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CEAF9831E13F8D20011D726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CEAF9851E13F8D20011D726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDEmojiString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iandai.IDEmojiString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CEAF9861E13F8D20011D726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDEmojiString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iandai.IDEmojiString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CEAF9881E13F8D20011D726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDEmojiStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iandai.IDEmojiStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDEmojiString.app/IDEmojiString";
+			};
+			name = Debug;
+		};
+		3CEAF9891E13F8D20011D726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDEmojiStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iandai.IDEmojiStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDEmojiString.app/IDEmojiString";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CEAF95D1E13F8D10011D726 /* Build configuration list for PBXProject "IDEmojiString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEAF9821E13F8D20011D726 /* Debug */,
+				3CEAF9831E13F8D20011D726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEAF9841E13F8D20011D726 /* Build configuration list for PBXNativeTarget "IDEmojiString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEAF9851E13F8D20011D726 /* Debug */,
+				3CEAF9861E13F8D20011D726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEAF9871E13F8D20011D726 /* Build configuration list for PBXNativeTarget "IDEmojiStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEAF9881E13F8D20011D726 /* Debug */,
+				3CEAF9891E13F8D20011D726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CEAF95A1E13F8D10011D726 /* Project object */;
+}
