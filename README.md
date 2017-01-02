@@ -7,12 +7,12 @@ IDEmojiString detects an emoji by search through full emoji set loaded from emoj
 
 ## Purpose
 
-NSString's existing method ```- (NSRange)rangeOfCharacterFromSet:(NSCharacterSet *)searchSet;``` only supports character set in BMP, not supplementary characters.
+NSString's existing method ```- (NSRange)rangeOfCharacterFromSet:(NSCharacterSet *)searchSet;``` only supports character set in BMP, not supplementary characters. For example:
 
 ```objective-c
 
 NSMutableCharacterSet *set = [[NSMutableCharacterSet alloc] init];
-[set addCharactersInString:@"2️⃣"];
+[set addCharactersInString:@"2️⃣"];      // keycap 2, 0032 FE0F 20E3, github seems not supporting this emoji. Check from http://www.iemoji.com/view/emoji/296/symbols/keycap-2 
 [@"2" rangeOfCharacterFromSet:set];     // return value: YES, which is not reasonable 
 
 ```
