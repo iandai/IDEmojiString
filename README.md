@@ -17,7 +17,7 @@ NSMutableCharacterSet *set = [[NSMutableCharacterSet alloc] init];
 
 ```
 
-Existing library does not solve emoji perfectly. [NSString+RemoveEmoji](https://github.com/woxtu/NSString-RemoveEmoji) Category quoted by many articles, but NSString+RemoveEmoji Category could not detect emoji such as @"⭐", and detects none emoji character such as @"Ⅶ". 
+Existing library does not solve emoji perfectly. [NSString+RemoveEmoji](https://github.com/woxtu/NSString-RemoveEmoji) category, which quoted by many articles, does not detect emoji such as @"⭐", and detects character such as @"Ⅶ" which is not emoji. 
 
 
 ## Usage
