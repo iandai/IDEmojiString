@@ -18,7 +18,6 @@
 		3CEAF9801E13F8D20011D726 /* IDEmojiStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF97F1E13F8D20011D726 /* IDEmojiStringTests.m */; };
 		3CEAF98F1E13FCD20011D726 /* IDEmojiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF98E1E13FCD20011D726 /* IDEmojiManager.m */; };
 		3CEAF9911E1401900011D726 /* emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CEAF9901E1401900011D726 /* emoji.plist */; };
-		3CEAF9941E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAF9931E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +47,6 @@
 		3CEAF98D1E13FCD20011D726 /* IDEmojiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEmojiManager.h; sourceTree = "<group>"; };
 		3CEAF98E1E13FCD20011D726 /* IDEmojiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDEmojiManager.m; sourceTree = "<group>"; };
 		3CEAF9901E1401900011D726 /* emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emoji.plist; sourceTree = "<group>"; };
-		3CEAF9921E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+emojiCharacterSet.h"; sourceTree = "<group>"; };
-		3CEAF9931E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+emojiCharacterSet.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +97,6 @@
 				3CA4F4201E17A36800BCED36 /* IDCharacterSet.m */,
 				3CA4F4221E17CF8A00BCED36 /* NSString+CharacterRange.h */,
 				3CA4F4231E17CF8A00BCED36 /* NSString+CharacterRange.m */,
-				3CEAF9921E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.h */,
-				3CEAF9931E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m */,
 				3CEAF9901E1401900011D726 /* emoji.plist */,
 				3CB8E1EE1E18BE7200510167 /* emoji-test.txt */,
 				3CEAF9651E13F8D20011D726 /* Supporting Files */,
@@ -230,7 +225,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CEAF9941E14ADC30011D726 /* NSCharacterSet+emojiCharacterSet.m in Sources */,
 				3CA4F4211E17A36800BCED36 /* IDCharacterSet.m in Sources */,
 				3CB8E1F51E18F3FE00510167 /* README.md in Sources */,
 				3CA4F4241E17CF8A00BCED36 /* NSString+CharacterRange.m in Sources */,
